@@ -1,4 +1,4 @@
-Underwater Object Detection for Marine Studies
+Underwater Object Detection for Marine Studies:
 This project uses OpenCV and Python to detect and highlight underwater objects in images, which is useful for marine studies and environmental monitoring. The algorithm highlights non-water regions (objects) in green, helping researchers isolate and identify marine life, coral, or underwater structures from the water background.
 
 Problem Statement
@@ -13,7 +13,7 @@ Underwater Robotics: Assisting underwater robots in object recognition for explo
 
 Underwater Photography: Enhancing object detection for underwater photographers or videographers by automatically highlighting points of interest.
 
-Approach
+Approach :
 Color Space Conversion: The image is converted from RGB to HSV (Hue, Saturation, Value) color space to facilitate easier detection of water regions, which typically fall within specific blue-green shades.
 
 Water Region Detection: Using predefined HSV thresholds, water regions (blue-green hues) are identified and masked out, allowing non-water areas to be separated.
@@ -22,7 +22,7 @@ Object Highlighting: Non-water regions are highlighted in green using a binary m
 
 Display Results: The script displays both the original image and the processed image side by side for easy comparison.
 
-Conclusion
+Conclusion :
 This project offers an efficient and straightforward approach to underwater object detection using OpenCV and Python. By leveraging color-based segmentation in the HSV space, it successfully isolates objects of interest in underwater environments, making it a valuable tool for marine biologists, environmental researchers, and underwater robotics. The algorithm can be easily customized to adjust detection sensitivity or object highlight colors, making it versatile for different types of underwater imagery.
 
 
